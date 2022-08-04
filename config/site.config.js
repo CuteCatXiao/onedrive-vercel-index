@@ -11,7 +11,7 @@ module.exports = {
 
   // [OPTIONAL] This is the website icon to the left of the title inside the navigation bar. It should be placed under the
   // /public directory of your GitHub project (not your OneDrive folder!), and referenced here by its relative path to /public.
-  icon: 'https://gcore.jsdelivr.net/gh/CuteCatXiao/DriveCDN@main/templates/img/%E3%81%AD%E3%81%93%E3%82%B7%E3%83%AD%E3%81%AB%E3%82%83%E3%82%93_67412596.jpg',
+  icon: '',
 
   // Prefix for KV Storage
   kvPrefix: process.env.KV_PREFIX || '',
@@ -50,12 +50,7 @@ module.exports = {
   // [OPTIONAL] This is an array of names and links for setting your social information and links.
   // In the latest update, all brand icons inside font awesome is supported and the icon to render is based on the name
   // you provide. See the documentation for details.
-  links: [
-    {
-      name: 'house',
-      link: 'https:/drive.nekolunana.ga',
-    },
-  ],
+  links: [],
 
   // This is a day.js-style datetime format string to format datetimes in the app. Ref to
   // https://day.js.org/docs/en/display/format for detailed specification. The default value is ISO 8601 full datetime
